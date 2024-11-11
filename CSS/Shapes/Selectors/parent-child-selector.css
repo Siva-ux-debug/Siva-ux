@@ -1,0 +1,23 @@
+p{
+    color: blue;
+}
+
+div p{
+    color: red;
+}
+
+div #mom{
+    color: yellow;
+}
+
+div p:first-child{
+    color: violet;
+}
+
+div p:last-child{
+    color: blueviolet;
+}
+
+div #dad{
+    color: brown;
+}

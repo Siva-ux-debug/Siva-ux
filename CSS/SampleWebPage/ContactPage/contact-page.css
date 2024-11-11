@@ -1,0 +1,174 @@
+.main-header {
+
+    width: 100%;
+    background-color: gray;
+    height: 349px;
+    /* margin-bottom: 15px; */
+    background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 5.16.57 PM.jpeg');
+    background-size: 1519px 350px;
+    background-repeat: no-repeat;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    /* gap: 30px;  */
+    gap: 2%;
+}
+
+.section1 {
+    /* margin-top: 30px; */
+    width: 40%;
+    margin-left: 8%;
+    height: 568px;
+    /* background-color: lightgray; */
+}
+
+.section2 {
+    /* margin-top: 30px; */
+    width: 40%;
+    height: 568px;
+    background-color: lightgray;
+}
+
+.paragraph-style{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: dimgray;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 607px;
+    height: 80vh;
+    border-top: 1px solid #bdb5b5;
+    border-left: 1px solid #bdb5b5;
+    border-right: 1px solid #bdb5b5;
+   
+    
+}
+
+.heading{
+    width: 608px;
+    height: 50px;
+    justify-content: center;
+    background-color: #4285F4;
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.input-class{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 91px;
+    width: 441px;
+}
+
+.input-class:focus {
+    border-color: gray;
+    outline: none;
+}
+
+.lastname-class{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    width: 441px;
+    margin-left: 62px;
+}
+
+.lastname-class:focus {
+    border-color: gray;
+    outline: none;
+}
+
+.multiline-label {
+    display: inline-block;
+    margin-bottom: 15px; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.multiline-label br {
+    line-height: 1; 
+    margin: 0; 
+}
+
+.hear-class{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    width: 441px;
+    margin-left: 32px;
+}
+    
+    .lastname-class:focus {
+        border-color: gray;
+        outline: none;
+    }
+    
+
+
+.hear-class:focus {
+    border-color: gray;
+    outline: none;
+}
+
+.inline-label {   
+    vertical-align: top;
+    margin-left: 10px;    
+}
+
+textarea {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-left: 52px;
+    width: 452px;
+    margin-top: 20px;
+}
+
+textarea:focus{
+    border-color: gray;
+    outline: none;
+}
+
+.button-style{
+    height: 25px;
+    margin-left: 258px;
+    margin-top: 30px;
+    width: 54px;
+}
+
+.clear-style{
+    display: inline-block;
+    width: 54px;
+    height: 25px;
+}
+
+.label-style{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.select-class{
+    padding: 5px 5px 5px 5px;
+    width: 453px;
+    margin-left: 45px;
+}
+
+h6 br{
+    margin-left: 20px;
+}

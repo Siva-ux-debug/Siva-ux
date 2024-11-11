@@ -1,0 +1,43 @@
+.form{
+    width: 19%;
+    height: 440px;
+    background-color: white;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.inside-form{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-form{
+    margin-top: 58px;
+    width: 139px;
+}
+
+.paragraph-style{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.inside-second{
+    /* background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 6.17.27 PM.jpeg'); */
+    /* background-image: url('C:\Users\VIJAY KOKKILIGADDA\Downloads\WhatsApp Image 2024-10-15 at 6.17.27 PM.jpeg') ;
+    background-size: 200px 350px;
+    background-repeat: no-repeat; */
+
+    background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 5.16.57 PM.jpeg');
+    background-size: 1519px 350px;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

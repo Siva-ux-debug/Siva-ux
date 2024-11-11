@@ -1,0 +1,143 @@
+.parent{
+    width: 1514px;
+    height: 4px;
+    /* background-color: gray; */
+    margin: auto;
+    margin-top: 40px;
+}
+
+.section1 {
+    width: 632px;
+    height: 535px;
+    /* background-color: gray; */
+    margin-left: 167px;
+}
+
+.section2 {
+    width: 485px;
+    height: 535px;
+    /* background-color: lightgray; */
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.first-para{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 30px;
+    /* color: #333; */
+}
+
+.second-para{
+    margin-top: 17px;
+    font-size: 21px;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Ysabeau', sans-serif; */
+    /* font-family: 'Ysabeau Infant', sans-serif; */
+    /* font-family: 'Anek Gujarati', sans-serif; */
+    /* font-family: 'Alumni Sans Pinstripe', sans-serif; */
+    /* font-family: 'Comic Neue', sans-serif; */
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+ input[type="checkbox"]:checked {
+    background-color: transparent; /* Or any color you prefer */
+    border-color: #000; /* Optional: change the border color */
+}
+
+.custom-checkbox {
+    width: 15px;
+    height: 17px;
+    appearance: none; /* Removes default styling */
+    border: 1px solid #333; /* Border style for the checkbox */
+    cursor: pointer;
+}
+
+.custom-checkbox:checked {
+    background-color: transparent; /* Removes blue background */
+    border-color: #000; /* Keep the border color */
+}
+
+.custom-checkbox:checked::before {
+    content: '✔'; /* Optional: Add a checkmark symbol when checked */
+    font-size: 16px;
+    color: #000; /* Checkmark color */
+    display: block;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+.check-elements{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 15px;
+}
+
+
+.ReadMore{
+    margin-top: 30px;
+    background-color: orange;
+    color: white;
+    width: 86px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.first-line{
+    margin-top: 59px;
+    width: 152px;
+    height: 123px;
+    position: relative;
+    overflow: hidden;
+    background-color: moccasin;
+}
+
+.second-parent{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.second-line{
+    width: 152px;
+    height: 123px;
+    position: relative;
+    overflow: hidden;
+    background-color: moccasin;
+}
+
+.fertilizer-class{
+    width: 40px;
+    margin-left: 55px;
+    margin-top: 33px;
+}
+
+.govt-class{
+    
+    width: 40px;
+    margin-left: 55px;
+    margin-top: 33px;
+}
+
+/* #some{
+    position: relative;
+} */
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

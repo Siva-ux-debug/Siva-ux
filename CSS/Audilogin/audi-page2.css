@@ -1,0 +1,122 @@
+.form{
+    width: 18%;
+    height: 480px;
+    background-color: white;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 6.17.27 PM.jpeg');
+    background-size:289px 480px;
+    background-repeat: no-repeat;
+ 
+}
+
+.inside-div{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-form{
+    margin-top: 35px;
+    width: 135px;
+    height: 94px;
+    margin-left: 74px;
+}
+
+.paragraph-style{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.inside-second{
+    /* background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 6.17.27 PM.jpeg'); */
+    /* background-image: url('C:\Users\VIJAY KOKKILIGADDA\Downloads\WhatsApp Image 2024-10-15 at 6.17.27 PM.jpeg') ;
+    background-size: 200px 350px;
+    background-repeat: no-repeat; */
+
+    background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/WhatsApp Image 2024-10-15 at 5.16.57 PM.jpeg');
+    background-size: 1519px 350px;
+    background-repeat: no-repeat;
+}
+
+hr{
+    border: none;
+            height: 2px;
+            background-color: #000; /* Black line */
+            width: 69%;
+            margin-top: 107px;
+        margin-left: 37px;
+ }
+ 
+ /* Width of the line */
+ .input-box {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 68%;
+    margin-left: 43px;
+    margin-top: 7px;
+    outline: none;
+}
+
+.label-class{
+    margin-left: 176px;
+    margin-top: 107px;
+    color: white;
+    font-size: 13px;
+}
+
+.passwordlabel-class{
+    margin-left: 176px;
+    margin-top: 7px;
+    color: white;
+    font-size: 13px;
+}
+
+.passwordinput-box{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 68%;
+    margin-left: 43px;
+    margin-top: 11px;
+    outline: none;
+}
+
+.login{
+    background-color: white;
+    height: 26px;
+    width: 172px;
+    margin-top: 28px;
+    margin-left: 41px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: black;
+    padding: 0px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:visited {
+    color: inherit; 
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

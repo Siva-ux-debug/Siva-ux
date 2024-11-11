@@ -1,0 +1,72 @@
+.parent{
+    width: 1536px;
+    height: 320px;
+    background-color: #333;
+    margin-top: 30px;
+}
+
+.inside-parent{
+    padding-top: 36px;
+    display: flex;
+}
+
+.first-div{
+    margin-left: 80px;
+    width: 114px;
+    height: 178px;
+    /* background-color: blueviolet; */
+}
+
+.second-div{
+    width: 146px;
+    height: 178px;
+    /* background-color: brown; */
+    margin-left: 152px;
+}
+
+.third-div{
+    width: 213px;
+    height: 178px;
+    /* background-color: cadetblue; */
+    margin-left: 116px;
+}
+
+
+.fourth-div{
+    width: 265px;
+    height: 178px;
+    /* background-color: azure; */
+    margin-left: 71px;
+}
+
+.fifth-div{
+    width: 161px;
+    height: 178px;
+    /* background-color: azure; */
+    margin-left: 55px;
+}
+
+.twitter-class{
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.paragraph-class{
+    font-family: 'Outfit', sans-serif;
+     color: rgb(161, 160, 160);
+      font-size: 16px;
+      font-weight: 600;
+}
+
+.paragraph-font{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+    font-weight: thin;
+    color: rgb(161, 160, 160);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
