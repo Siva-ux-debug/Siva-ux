@@ -1,169 +1,200 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    width: 1519px;
-    height: 85px;
-    background: linear-gradient(to right, #ebe1d8, #77deea);
-    box-shadow: 3px -6px 18px 0px #333;
+.header {
+  width: 1519px;
+  height: 85px;
+  background: linear-gradient(to right, #ebe1d8, #77deea);
+  box-shadow: 3px -6px 18px 0px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
-.image{
-    width: 271px;
-    height: 85px;
-    /* background-color: goldenrod; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image {
+  /* width: 271px;
+    height: 85px; */
+  /* background-color: goldenrod; */
+  margin-left: 104px;
 }
 
-.image-class{
-    width: 47px;
-    object-fit: cover;
-    height: 40px;
+@font-face {
+  font-family: 'Faculty Glyphic';
+  src: url('/path/to/FacultyGlyphic.ttf') format('truetype');
+  /* Adjust path if needed */
+  font-weight: normal;
+  font-style: normal;
 }
 
-.side-nav{
-    width: 260px;
-    height: 920px;
-    background: linear-gradient(to bottom, #ebe1d8, #4848dd);
-    margin-top: 2px;
+.Portfolio {
+  font-family: 'Faculty Glyphic', sans-serif;
+  color: tomato;
+  margin-right: 82px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.ratan{
-   display: flex;
-   justify-content: center;
-   padding-top: 10px;
+.image-class {
+  width: 47px;
+  object-fit: cover;
+  height: 40px;
 }
 
-.ratan-image{
-    width: 112px;
-    height: 112px;
-    border-radius: 100px;
+.side-nav {
+  width: 260px;
+  height: 920px;
+  background: linear-gradient(to bottom, #ebe1d8, #4848dd);
+  margin-top: 2px;
+  position: sticky;
+  top: 0;
+}
+
+.ratan {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.ratan-image {
+  width: 112px;
+  height: 112px;
+  border-radius: 100px;
 }
 
 
 
-.side-page{
-    margin-top: 40px;
-    font-family: "Lato", sans-serif;
-    cursor: pointer;
+.side-page {
+  margin-top: 40px;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
 }
 
-p{
-    margin-top: 40px;
+p {
+  margin-top: 40px;
 }
 
 .sidenav-heading {
-    padding: 10px;
-    display: block;
-    text-decoration: none;
-    color: #333;
-  }
-
-
-  .sidenav-heading:hover {
-    background-color: #f0f0f0;
-  }
-
-  .accordion.accordion {
-    --bs-accordion-border-color: transparent;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #333;
 }
 
 
-.button-class{
-    width: 271px;
-    height: 125px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.sidenav-heading:hover {
+  background-color: #f0f0f0;
+}
+
+.accordion.accordion {
+  --bs-accordion-border-color: transparent;
 }
 
 
-.header-below{
-    display: flex;
+.button-class {
+  width: 271px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.header-below {
+  display: flex;
 
 }
 
-.second-part{
-   width: 100%;
-   height: 919px;
-   background-color: blue;
-   /* background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/pexels-andreea-ch-371539-1166643.jpg'); */
-   background-image: url('https://www.luxoft.com/files/blog/2022/02/Add-real-time-intraday-liquidity-insight.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin-top: 2px;
+.second-part {
+  width: 100%;
+  height: 919px;
+  background-color: blue;
+  /* background-image: url('C:/Users/VIJAY KOKKILIGADDA/Downloads/pexels-andreea-ch-371539-1166643.jpg'); */
+  background-image: url('https://www.luxoft.com/files/blog/2022/02/Add-real-time-intraday-liquidity-insight.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2px;
 
-   /* background: no-repeat; */
+  /* background: no-repeat; */
 }
 
-.second-side{
-    display: flex;
-    gap: 82px;
-    justify-content: flex-end;
-    cursor: pointer;
+.second-side {
+  display: flex;
+  gap: 82px;
+  justify-content: flex-end;
+  cursor: pointer;
+  transform: transform 0.3s ease;
 }
 
-.image-body{
+.second-side:hover {
+  transform: scale(1.0);
+}
+
+.image-body {
   width: 380px;
   height: 350px;
   background-color: white;
 }
 
 .image-shadow {
-    width: 380px; /* Adjust the width as needed */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Horizontal offset, vertical offset, blur radius, shadow color */
-    transition: transform 0.3s ease;
-    height: 350px;
+  width: 380px;
+  /* Adjust the width as needed */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  /* Horizontal offset, vertical offset, blur radius, shadow color */
+  transition: transform 0.3s ease;
+  height: 350px;
 
-  }
+}
 
-  .image-shadow:hover {
-    transform: scale(1.1); /* Slightly increases the image size on hover */
-  }
+.image-shadow:hover {
+  transform: scale(1.1);
+  /* Slightly increases the image size on hover */
+}
 
-  .second-para{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 550px;
-    align-items: center;
-  }
+.second-para {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 550px;
+  align-items: center;
+}
 
-  .paragraph{
-    /* width: 50%;
+.paragraph {
+  /* width: 50%;
     height: 289px; */
-    /* background-color: blue; */
-  }
+  /* background-color: blue; */
+}
 
-  .million{
-    font-family: 'Faculty Glyphic', sans-serif;
-    font-size: 40px;
-    color: white;
-  }
+.million {
+  font-family: 'Faculty Glyphic', sans-serif;
+  font-size: 40px;
+  color: white;
+}
 
-  .photo{
-  font-family: 'Raleway', sans-serif;;
-  }
+.photo {
+  font-family: 'Raleway', sans-serif;
+  ;
+}
 
-  .story{
-    width: 309px;
-    height: 200px;
-    /* background-color: black; */
-    margin-top: 10px;
-  }
+.story {
+  width: 309px;
+  height: 200px;
+  /* background-color: black; */
+  margin-top: 10px;
+}
 
-.whole-div{
+.whole-div {
   justify-content: space-around;
   display: flex;
   margin-top: 40px;
 }
 
-.whole-div2{
+.whole-div2 {
   justify-content: space-around;
   display: flex;
   margin-top: 20px;
@@ -171,7 +202,7 @@ p{
 }
 
 
-.second-box{
+.second-box {
   width: 336px;
   height: 323px;
   background-color: linear-gradient(to right, #ebe1d8, #77deea);
@@ -180,11 +211,12 @@ p{
 }
 
 .second-box:hover {
-  transform: scale(1.1); /* Slightly increases the image size on hover */
+  transform: scale(1.1);
+  /* Slightly increases the image size on hover */
 }
 
 
-.second-box1{
+.second-box1 {
   /* width: 336px; */
   height: 323px;
   /* background-color: linear-gradient(to right, #ebe1d8, #77deea); */
@@ -195,21 +227,22 @@ p{
   padding-left: 20px;
 }
 
-.tatas-image{
+.tatas-image {
   width: 570px;
   height: 323px;
   object-fit: cover;
 }
 
 .second-box1:hover {
-  transform: scale(1.1); /* Slightly increases the image size on hover */
+  transform: scale(1.1);
+  /* Slightly increases the image size on hover */
 }
 
-.whole-para{
+.whole-para {
   font-family: "Roboto", sans-serif;
 }
 
-.section-div{
+.section-div {
   width: 700px;
   height: 320px;
   background-color: #307fe2;
@@ -217,39 +250,48 @@ p{
 
 }
 
-.Openings{
+.Openings {
   font-family: "Roboto", sans-serif;
   font-size: 21px;
-    font-weight: 500;
-    padding-top: 20px;
-    margin-left: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
-.openings-class1{
+.openings-class1 {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
 }
-.small-text{
+
+.small-text {
   font-family: 'EduAustralia', sans-serif;
   font-size: 100;
   font-size: 12px;
 }
 
-.second-openings{
-   width: 400px;
-   height: 300px;
-   background-color: white;
-   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+.second-openings {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
 
 }
 
-.openings-parent{
+.second-openings:hover {
+  transform: scale(1.1);
+  /* Slightly increases the image size on hover */
+}
+
+
+
+.openings-parent {
   display: flex;
   justify-content: space-around;
 }
 
-.return{
+.return {
   color: black;
   font-weight: 600;
   font-size: 20px;
@@ -261,7 +303,7 @@ p{
   margin-top: -30px;
 }
 
-.contact{
+.contact {
   display: flex;
   width: 100%;
   height: 750px;
@@ -270,6 +312,23 @@ p{
   align-items: center;
 }
 
+.members {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-class {
+  height: 500px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -277,9 +336,3 @@ p{
 /* button.accordion-button, .accordion-header, div.accordion-item, .accordion{
     background-color: transparent;
 } */
-
-
-
-
-
-
